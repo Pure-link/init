@@ -1,0 +1,356 @@
+body{
+    width: 50%;
+}
+/* logo */
+
+#logo{
+    display: flex;
+}
+
+#logo img{
+    height: 10%;
+    width: 10%;
+}
+#logo span{
+    color: orangered;
+}
+#logo h1{
+    color: black;
+    font-weight: bold;
+    font-size: 64px;
+    position: relative;
+    margin-top: 10px;
+}
+/* menu */
+#menu1{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    top: 35%;
+    left: -3%;
+}
+#menu2{
+    height: 300px;
+    width: 100%;
+    border: black;
+    border-width: 10%;
+    border-style: solid;
+    margin-left: 5%;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+}
+#menu2 img{
+    height: 80%;
+    width: 100%;
+    margin: auto;
+    position: relative;
+
+}
+#menu3{
+    border: #000000;
+    width: 100%;
+    border-width: 2%;
+    height: 10%;
+ 
+
+}
+#menu2 span{
+    position: relative;
+    left: 0%;
+}
+
+
+/* decoration */
+#decoration{
+    background-color: #16FF00;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 95%;
+}
+#decoration img{
+    height: 75%;
+    width: 75%;
+    border-radius: 100%;
+    margin: auto;
+    margin-left: 25%;
+}
+/* text */
+#text{
+    position: relative;
+    left: 75%;
+    color: orangered;
+    font-size: 64px;
+    font-style: italic;
+}
+/* seafood */
+#menu1a{
+    display: flex;
+    height: 300px;
+    width: 200%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 2%;
+    top: -200px;
+}
+#seafood{
+    width: 100%;
+    height: 100%;
+    border: grey solid;
+    position: relative;
+    border-width: 5%;
+    margin-right: 5%;
+}
+#seafood img{
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+#seafood span{
+    position: relative;
+    left: 0%;
+}
+.text{
+    top: -200px;
+}
+/* chef special */
+#menu2a{
+    display: flex;
+    height: 300px;
+    width: 200%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 2%;
+    top: -200px;
+}
+#chef{
+    width: 100%;
+    height: 100%;
+    border: grey solid;
+    position: relative;
+    border-width: 5%;
+    margin-right: 5%;
+}
+#chef img{
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+#chef span{
+    position: relative;
+    left: 0%;
+}
+.text2{
+    top: -200px;
+}
+/* dessert */
+#menu3a{
+    display: flex;
+    height: 300px;
+    width: 200%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 2%;
+    top: -200px;
+}
+#dessert{
+    width: 100%;
+    height: 100%;
+    border: grey solid;
+    position: relative;
+    border-width: 5%;
+    margin-right: 5%;
+}
+#dessert img{
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+#dessert span{
+    position: relative;
+    left: 0%;
+    /* right: 0; */
+}
+.text3{
+    top: -200px;
+}
+a{
+    left: 50%;
+}
+button{
+    height: 75px;
+    font-size: 32px;
+    background-color: #16FF00;
+    left: 50%;
+    width: 200px;
+}
+a button:hover{
+    background-color: orangered;
+}
+#btn{
+    position: relative;
+    left: 100%;
+}
+@media only screen and (max-width: 960px) {
+    body{
+        font-size: 16px;
+    }
+    #text{
+        font-size: 20px;
+    }
+    #logo img{
+        height: 10%;
+        width: 10%;
+    }
+    #logo span{
+        color: orangered;
+    }
+    #logo h1{
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        position: relative;
+        margin-top: 5px;
+    }
+    /* menu */
+    #menu1{
+        height: 15%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        top: 15%;
+        left: -3%;
+    }
+    #menu2{
+        height: 150px;
+        width: 100%;
+        border: black;
+        border-width: 10%;
+        border-style: solid;
+        margin-left: 5%;
+        align-items: center;
+        background-color: white;
+        justify-content: center;
+        font-size: 55%;
+    }
+    #menu2 img{
+        height: 80%;
+        width: 100%;
+        margin: auto;
+        position: relative;
+    }
+ 
+    #menu2 span{
+        position: relative;
+        left: 0%;
+    }
+
+    #menu1a{
+        display: flex;
+        height: 150px;
+        width: 200%;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        left: 2%;
+        top: -50px;
+    }
+    #seafood{
+        width: 100%;
+        height: 100%;
+        border: grey solid;
+        position: relative;
+        border-width: 5%;
+        margin-right: 5%;
+        font-size: 50%;
+    }
+    #seafood img{
+        height: 80%;
+        width: 100%;
+        position: relative;
+    }
+    #seafood span{
+        position: relative;
+        left: 0%;
+    }
+    .text{
+        top: -50px;
+        font: 50%;
+    }
+
+    /* chef special */
+    #menu2a{
+        display: flex;
+        height: 150px;
+        width: 200%;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        left: 2%;
+        top: -50px;
+    }
+    #chef{
+        width: 100%;
+        height: 100%;
+        border: grey solid;
+        position: relative;
+        border-width: 5%;
+        margin-right: 5%;
+        font-size: 35%;
+    }
+    #chef img{
+        height: 80%;
+        width: 100%;
+        position: relative;
+    }
+    #chef span{
+        position: relative;
+        left: 0%;
+    }
+    .text2{
+        top: -50px;
+    }
+    /* dessert */
+    #menu3a{
+        display: flex;
+        height: 150px;
+        width: 200%;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        left: 2%;
+        top: -50px;
+        font-size: 35%;
+    }
+    #dessert{
+        width: 100%;
+        height: 100%;
+        border: grey solid;
+        position: relative;
+        border-width: 5%;
+        margin-right: 5%;
+    }
+    #dessert img{
+        height: 80%;
+        width: 100%;
+        position: relative;
+    }
+    #dessert span{
+        position: relative;
+        left: 0%;
+    }
+    .text3{
+        top: -50px;
+    }
+    /* button */
+    #btn{
+        position: relative;
+        left: 75%;
+    }
+}
