@@ -1,0 +1,359 @@
+body{
+    width: 50%;
+    padding-top: 20px;
+}
+*{
+    margin: 0;
+}
+
+/* logo */
+
+#logo{
+    display: flex;
+}
+
+#logo img{
+    height: 10%;
+    width: 10%;
+}
+#logo span{
+    color: orangered;
+}
+#logo h1{
+    color: black;
+    font-weight: bold;
+    font-size: 64px;
+    position: relative;
+    margin-top: 10px;
+}
+/* nav bar */
+#bars{
+    display: flex;
+}
+nav{
+    position: relative;
+    left: 100%;
+}
+nav ul{
+    display: flex;
+    position: relative;
+    top: -50px;
+    font-size: 60px;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 15%;
+    position: relative;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a::after{
+    content: " ";
+    background-color: #16FF00;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+#tap{
+    display: none;
+}
+/* decoration */
+#decoration{
+    background-color: #16FF00;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 95%;
+}
+#decoration img{
+    height: 75%;
+    width: 75%;
+    border-radius: 100%;
+    margin: auto;
+    margin-left: 25%;
+}
+/* text */
+#text{
+    position: absolute;
+    font-size: 32px;
+    top: 200px;
+    color: #865DFF;
+    font-weight: bold;
+    margin: 50px;
+}
+#text span{
+    font-size: 65px;
+    color: #191825;
+}
+/* contact */
+
+#contact{
+    background-color: #16FF00;
+    height: 100%;
+    width: 75%;
+    position: relative;
+    left: 50%;
+    margin-bottom: 50px;
+    border: solid 16px;
+    top: -1500px;
+    transition: 3s;
+}
+#contact h2{
+    font-size: 32;
+    padding-left: 5%;
+}
+#contact h1{
+    background-color: orangered;
+    width: 95%;
+    padding-left: 5%;
+}
+/* design */
+#design{
+    height: 8%;
+    width: 4%;
+    background-color: transparent;
+    border: solid;
+    border-color: #191825;
+    border-width: 10px;
+    animation-name: display;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-size: cover;
+    position: absolute;
+}
+.design1{
+    left: 10%;
+    top: 10%;
+}
+.design2{
+    left: 30%;
+    top: 10%;
+}
+.design3{
+    left: 50%;
+    top: 10%;
+}
+.design4{
+    left: 70%;
+    top: 10%;
+}
+/* .design5{
+    left: 90%;
+    top: 10%;
+} */
+.design6{
+    left: 20%;
+    top: 30%;
+}
+.design7{
+    left: 40%;
+    top: 30%;
+}
+.design9{
+    left: 60%;
+    top: 30%;
+}
+.design10{
+    left: 80%;
+    top: 30%;
+}
+.design11{
+    left:100%;
+    top: 30%;
+}
+.design12{
+    left: 10%;
+    top: 50%;
+}
+.design13{
+    left: 30%;
+    top: 50%;
+}
+.design14{
+    left: 50%;
+    top: 50%;
+}
+.design15{
+    left: 70%;
+    top: 50%;
+}
+.design16{
+    left: 90%;
+    top: 50%;
+}
+.design17{
+    left: 20%;
+    top: 70%;
+}
+.design18{
+    left: 40%;
+    top: 70%;
+}
+.design19{
+    left: 60%;
+    top: 70%;
+}
+.design20{
+    left: 80%;
+    top: 70%;
+}
+.design21{
+    left: 100%;
+    top: 70%;
+}
+.design22{
+    left: 10%;
+    top: 90%;
+}
+.design23{
+    left: 30%;
+    top: 90%;
+}
+.design24{
+    left: 50%;
+    top: 90%;
+}
+.design25{
+    left: 70%;
+    top: 90%;
+}
+.design26{
+    left: 90%;
+    top: 90%;
+}
+
+
+@keyframes display {
+    0%, 100%{
+        transform: rotateZ(0deg) scale(0);
+        opacity: 0;
+        border-color: #191825;
+
+    }
+    10%{
+        transform: rotateZ(72deg) scale(0.2);
+        opacity: 0.1;
+        border-color: #3A1078;
+
+    }
+    20%{
+        transform: rotateZ(144deg) scale(0.4);
+        opacity: 0.2;
+        border-color: #A459D1;
+
+    }
+    30%{
+        transform: rotateZ(215deg) scale(0.6);
+        opacity: 0.3;
+        border-color: #95BDFF;
+
+    }
+    40%{
+        transform: rotateZ(288deg) scale(0.8);
+        transform: scale(0.8);
+        opacity: 0.4;
+        border-color: #16FF00;
+
+    }
+    50%{
+        transform: rotateZ(360deg)  scale(1);
+        opacity: 0.5;
+        border-color: #FF0303;
+
+    }
+    60%{
+        transform: rotateZ(288deg) scale(0.8);
+        opacity: 0.6;
+        border-color: #FCE22A;
+
+    }
+    70%{
+        transform: rotateZ(216deg) scale(0.6);
+        opacity: 0.8;
+        border-color: #FFBF00;
+
+    }
+    80%{
+        transform: rotateZ(144deg) scale(0.4);
+        opacity: 1;
+        border-color: #00FFF6;
+
+    }
+    90%{
+        transform: rotateZ(72deg) scale(0.2);
+        opacity: 0;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 960px) {
+    /* logo */
+    #logo img{
+        height: 15%;
+        width: 15%;
+    }
+    #logo h1{
+        display: none;
+    }
+
+    #bars{
+        display: flex;
+    }
+    nav{
+        position: relative;
+        top: -1000px;
+        transition: 1s;
+        left: 5%;
+    }
+    nav ul{
+        display: grid;
+        top: -50px;
+        font-size: 75px;
+        position: relative;
+        width: 100%;
+    }
+    nav ul li{
+        list-style: none;
+        margin-left: 15%;
+        position: relative;
+    }
+    nav ul li a{
+        color: black;
+        text-decoration: none;
+    }
+    nav ul li a::after{
+        content: " ";
+        background-color: transparent;
+        left: 0;
+        width: 0;
+        height: 3px;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+    nav ul li a:hover::after{
+        width: 100%;
+    }
+    #tap{
+        display: flex;
+        position: absolute;
+        top: 20px;
+        height: 5%;
+        width: 5%;
+        left: 95%;
+        transition: 1s;
+    }
+    #contact{
+        font-size: 14px;
+        line-break: anywhere;
+    }
+}
